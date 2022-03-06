@@ -12,7 +12,7 @@ import beans.Alumno;
 import beans.Asignatura;
 import beans.Examen;
 
-public class Principal {
+public class Principal_Examen {
 
 	public static void main(String[] args) {
 		

@@ -11,7 +11,7 @@ import beans.Asignatura;
 import beans.Examen;
 
 
-public class LecturaXML {
+public class LecturaXML_Examen {
 
 	public static void main(String[] args) {
 		try {
