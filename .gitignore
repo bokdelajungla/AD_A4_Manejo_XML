@@ -30,3 +30,8 @@ hs_err_pid*
 
 #Maven
 target
+
+#Project Specifics
+concierto.xml
+concierto_jaxb.xml
+patron.xml
