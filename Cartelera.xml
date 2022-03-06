@@ -8,5 +8,15 @@
             <edadRecomendada>13</edadRecomendada>
             <nombre>Star Wars</nombre>
         </pelicula>
+        <pelicula>
+            <director>Matt Reeves</director>
+            <edadRecomendada>13</edadRecomendada>
+            <nombre>The Batman</nombre>
+        </pelicula>
+        <pelicula>
+            <director> Destin Daniel</director>
+            <edadRecomendada>7</edadRecomendada>
+            <nombre>Shang-Chi</nombre>
+        </pelicula>
     </peliculas>
 </cartelera>

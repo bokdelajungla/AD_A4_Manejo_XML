@@ -29,7 +29,7 @@ public class fromXMLToObject {
 										". Edad recomendada: " + pelicula.getEdadRecomendada());
 				}
 			} else {
-				System.out.println("Fichero XML Homer.xml no encontrado");
+				System.out.println("Fichero XML Cartelera.xml no encontrado");
 			}
 
 		} catch (JAXBException e) {
