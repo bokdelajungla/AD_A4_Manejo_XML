@@ -10,7 +10,7 @@ import entidad.Cartelera;
 import entidad.Pelicula;
 
 
-public class fromXMLToObject {
+public class fromXMLToObject_Cartelera {
 	
 	public static void main(String[] args) {
 		try {
