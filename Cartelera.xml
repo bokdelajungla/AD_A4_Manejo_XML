@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cartelera>
+    <ciudad>Madrid</ciudad>
+    <nombreCine>IDEAL</nombreCine>
+    <peliculas>
+        <pelicula>
+            <director>J.J Abrams</director>
+            <edadRecomendada>13</edadRecomendada>
+            <nombre>Star Wars</nombre>
+        </pelicula>
+    </peliculas>
+</cartelera>
