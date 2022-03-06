@@ -6,10 +6,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import modelo.entidad.Concierto;
-import modelo.entidad.Participante;
+import modelo.entidad.concierto.Concierto;
+import modelo.entidad.concierto.Participante;
 
-public class Principal_JAXB {
+public class Principal_JAXB_Concierto {
 
 	public static void main(String[] args) {
 		JAXBContext contexto;

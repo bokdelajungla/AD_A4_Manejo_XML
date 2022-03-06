@@ -6,10 +6,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import modelo.entidad.Pedido;
-import modelo.entidad.Articulo;
-import modelo.entidad.Participante;
-import modelo.entidad.Pedido;
+import modelo.entidad.concierto.Participante;
+import modelo.entidad.pedido.Articulo;
+import modelo.entidad.pedido.Pedido;
 
 public class LecturaXML_JAXB_Pedido {
 

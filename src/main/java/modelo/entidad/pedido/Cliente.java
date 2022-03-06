@@ -1,4 +1,4 @@
-package modelo.entidad;
+package modelo.entidad.pedido;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;

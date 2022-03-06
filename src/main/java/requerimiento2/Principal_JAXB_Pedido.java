@@ -6,9 +6,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import modelo.entidad.Pedido;
-import modelo.entidad.Cliente;
-import modelo.entidad.Articulo;
+import modelo.entidad.pedido.Articulo;
+import modelo.entidad.pedido.Cliente;
+import modelo.entidad.pedido.Pedido;
 
 public class Principal_JAXB_Pedido {
 

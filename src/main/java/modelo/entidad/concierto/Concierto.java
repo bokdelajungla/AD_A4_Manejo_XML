@@ -1,4 +1,4 @@
-package modelo.entidad;
+package modelo.entidad.concierto;
 
 import java.util.ArrayList;
 import java.util.List;

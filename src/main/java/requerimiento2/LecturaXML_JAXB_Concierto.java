@@ -6,10 +6,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import modelo.entidad.Concierto;
-import modelo.entidad.Participante;
+import modelo.entidad.concierto.Concierto;
+import modelo.entidad.concierto.Participante;
 
-public class LecturaXML_JAXB {
+public class LecturaXML_JAXB_Concierto {
 
 	public static void main(String[] args) {
 		try {

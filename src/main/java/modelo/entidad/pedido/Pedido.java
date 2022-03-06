@@ -1,4 +1,4 @@
-package modelo.entidad;
+package modelo.entidad.pedido;
 
 import java.util.ArrayList;
 import java.util.List;
