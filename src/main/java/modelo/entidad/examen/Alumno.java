@@ -1,4 +1,4 @@
-package beans;
+package modelo.entidad.examen;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

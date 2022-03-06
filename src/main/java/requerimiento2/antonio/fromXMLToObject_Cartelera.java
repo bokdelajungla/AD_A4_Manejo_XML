@@ -1,4 +1,4 @@
-package requerimiento2;
+package requerimiento2.antonio;
 
 import java.io.File;
 
@@ -6,8 +6,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import entidad.Cartelera;
-import entidad.Pelicula;
+import modelo.entidad.cartelera.Cartelera;
+import modelo.entidad.cartelera.Pelicula;
 
 
 public class fromXMLToObject_Cartelera {

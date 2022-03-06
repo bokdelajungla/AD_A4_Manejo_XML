@@ -1,4 +1,4 @@
-package mainJAXB;
+package requerimiento2.adrian;
 
 import java.io.File;
 
@@ -6,9 +6,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import beans.Alumno;
-import beans.Asignatura;
-import beans.Examen;
+import modelo.entidad.examen.Alumno;
+import modelo.entidad.examen.Asignatura;
+import modelo.entidad.examen.Examen;
 
 
 public class LecturaXML_Examen {

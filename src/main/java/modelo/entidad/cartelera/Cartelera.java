@@ -1,4 +1,4 @@
-package entidad;
+package modelo.entidad.cartelera;
 
 import java.util.ArrayList;
 import java.util.List;

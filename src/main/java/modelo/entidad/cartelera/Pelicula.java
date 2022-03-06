@@ -1,4 +1,4 @@
-package entidad;
+package modelo.entidad.cartelera;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

@@ -1,4 +1,4 @@
-package beans;
+package modelo.entidad.examen;
 
 import java.util.ArrayList;
 import java.util.List;
