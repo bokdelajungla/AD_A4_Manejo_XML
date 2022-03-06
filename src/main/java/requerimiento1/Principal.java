@@ -1,7 +1,6 @@
 package requerimiento1;
 
 import java.io.File;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
@@ -25,7 +24,8 @@ public class Principal {
 			analizador = fabrica.newDocumentBuilder();
 			// Creamos nuevo documento vacio
 			doc = analizador.newDocument();
-			// Añadimos elemento raiz
+
+			// Aï¿½adimos elemento raiz
 			Element concierto = doc.createElement("concierto");
 			doc.appendChild(concierto);
 			Element fecha = doc.createElement("fecha");
@@ -39,12 +39,13 @@ public class Principal {
 			Element participantes = doc.createElement("participantes");
 			concierto.appendChild(participantes);
 			
-			// Agregamos los participantes.
+			// Agregamos los participantes
 			agregarParticipantes(participantes, doc);
 			
 			// Guardamos en disco el nuevo documento XML.
 			guardar(doc);
-			System.out.println("El fichero se ha creado con éxito");
+			System.out.println("El fichero se ha creado con Ã©xito");
+
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -54,13 +55,14 @@ public class Principal {
 		// Agregamos primer participante
 		Element participante = doc.createElement("participante");
 		participantes.appendChild(participante);
-		//Añadir elemento de texto en 2 pasos
+		//AÃ±adir elemento de texto en 2 pasos
+
 		Element entrada = doc.createElement("entrada");
 		Text horaEntrada = doc.createTextNode("21:30");
 		entrada.appendChild(horaEntrada);
 		participante.appendChild(entrada);
 		Element grupo = doc.createElement("grupo");
-		//Añadir elemento de texto en 1 paso
+		//AÃ±adir elemento de texto en 1 paso
 		grupo.appendChild(doc.createTextNode("Las Ardillas de Dakota"));
 		participante.appendChild(grupo);
 
